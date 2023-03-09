@@ -53,7 +53,7 @@ AJumboCharacter::AJumboCharacter()
 	bIsFirstPerson = false;
 	FirstPersonCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("FirstPersonCamera"));
 	FirstPersonCamera->SetupAttachment(RootComponent);
-	FirstPersonCamera->SetRelativeLocation(FVector(10.f, 0.f, BaseEyeHeight));
+	FirstPersonCamera->SetRelativeLocation(FVector(15.f, 0.f, BaseEyeHeight));
 	FirstPersonCamera->bUsePawnControlRotation = true;
 }
 

@@ -2,6 +2,9 @@
 
 #include "JumboGameMode.h"
 #include "JumboCharacter.h"
+#include "Net/UnrealNetwork.h"
+#include "GameFramework/PlayerController.h"
+#include "Kismet/GameplayStatics.h"
 #include "UObject/ConstructorHelpers.h"
 
 AJumboGameMode::AJumboGameMode()
