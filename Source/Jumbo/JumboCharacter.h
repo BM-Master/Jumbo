@@ -68,14 +68,15 @@ public:
 	UCameraComponent* FirstPersonCamera;
 
 	UPROPERTY(BlueprintReadOnly)
+	UCameraComponent* BirdViewCamera;
+
+	UPROPERTY(BlueprintReadOnly)
 	bool bIsFirstPerson;
 
 public:
 	void SetViewMode(bool firstPerson);
+
 	UFUNCTION(BlueprintCallable)
 	void ToggleViewMode();
-
-
-
 };
 

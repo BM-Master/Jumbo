@@ -51,6 +51,7 @@ AJumboCharacter::AJumboCharacter()
 	// are set in the derived blueprint asset named ThirdPersonCharacter (to avoid direct content references in C++)
 
 	bIsFirstPerson = false;
+
 	FirstPersonCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("FirstPersonCamera"));
 	FirstPersonCamera->SetupAttachment(RootComponent);
 	FirstPersonCamera->SetRelativeLocation(FVector(15.f, 0.f, BaseEyeHeight));
@@ -93,7 +94,6 @@ void AJumboCharacter::SetViewMode(bool firstPerson)
 		FirstPersonCamera->Deactivate();
 	}
 }
-
 
 //////////////////////////////////////////////////////////////////////////
 // Input

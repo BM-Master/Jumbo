@@ -6,6 +6,7 @@
 #include "GameFramework/PlayerController.h"
 #include "Kismet/GameplayStatics.h"
 #include "UObject/ConstructorHelpers.h"
+#include "JumboCameraActor.h"
 
 AJumboGameMode::AJumboGameMode()
 {
