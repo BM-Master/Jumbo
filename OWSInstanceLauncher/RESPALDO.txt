@@ -1,2 +1,0 @@
-"PathToDedicatedServer": "C:\\Users\\sgl19\\Documents\\Unreal Projects\\OpenWorldStarterPluginUE5\\WindowsServer\\OpenWorldStarterServer.exe",
-    
